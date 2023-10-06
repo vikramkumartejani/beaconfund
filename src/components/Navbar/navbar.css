@@ -1,0 +1,103 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 4vw;
+    position: fixed;
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 1);
+}
+.main-container img{
+    max-height: 61px;
+    max-width: 100%;
+    width: auto;
+}
+.links-container ul{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.links-container ul li{
+    font-size: 18px;
+    list-style: none;
+    font-weight: 300;
+}
+.links-container ul li a{
+    color: #6D6E71;
+    text-decoration: none;
+    
+}
+.menu{
+    display: none;
+}
+.menu-icon{
+    color: #6D6E71;
+    height: 35px;
+    width: 35px;
+
+}
+
+@media only screen and (max-width: 1024px){
+    .menu{
+        display: block;
+    }
+    .links-container ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main-container img{
+        max-height: 30px;
+    }
+}
+
+/* CSS for displaying links at the top of the viewport and filling the entire height */
+.links-container.visible ul {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white; /* Set background color as needed */
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: center;
+    z-index: 1001;
+  }
+  
+
+  
+@media only screen and (max-width: 1024px){
+    .links-container.visible ul {
+        top: 89px;
+      }
+}
+@media only screen and (max-width: 768px){
+    .links-container.visible ul {
+        top: 65px;
+      }
+}
+@media only screen and (max-width: 688px){
+    .links-container.visible ul {
+        top: 60px;
+      }
+}
+@media only screen and (max-width: 554px){
+    .links-container.visible ul {
+        top: 50px;
+      }
+}
+  .links-container.visible ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .links-container.visible ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
+
+
+  

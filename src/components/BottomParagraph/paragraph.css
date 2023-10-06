@@ -1,0 +1,38 @@
+.paragraph-container{
+    width: 100%;
+}
+.first-paragraph{
+    padding: 3.3vmax 6vw;
+    background-color: hsl(300,2.439024390243891%,91.96078431372548%);
+    text-align: center;
+
+}
+.first-Paragraph-p{
+    padding: 16px 0;
+}
+.first-paragraph .first-Paragraph-p p{
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 16px;
+    font-size: calc((1 - 1) * 1.2vw + 1rem);
+
+}
+.first-paragraph .text-underline{
+    color: #000000;
+    text-decoration: underline;
+}
+.second-paragraph{
+    padding: 3.3vmax 3vw;
+
+}
+.second-paragraph .paragraph p{
+    text-align: left;
+    font-size: 10px;
+    line-height: 1.7em;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.second-paragraph .paragraph{
+    margin: 16px 0;
+}

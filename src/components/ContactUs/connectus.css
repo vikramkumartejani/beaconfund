@@ -1,0 +1,28 @@
+.connect-container {
+    padding: 3.3vmax 4vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7rem;
+    width: 100%;
+}
+.connect-container h3{
+    color: #6D6E71;
+    font-weight: 600;
+    font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+    margin: 0 auto;
+}
+
+.btn-Connectus button {
+    cursor: pointer;
+    background-color: #6D6E71;
+    padding: 20px 36px;
+    color: #EBEAEB;
+    border: none;
+    /* font-weight: 100; */
+    font-size: 20px;
+}
+.btn-Connectus button:hover {
+    opacity: 0.9;
+}

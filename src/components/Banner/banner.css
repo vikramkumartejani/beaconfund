@@ -1,0 +1,22 @@
+.banner-container {
+    padding: 3.3vmax 6vw;
+    min-height: 33vh;
+    background-color: #000066;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container h3{
+    font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+    margin: 0 auto;
+    width: 80%;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-container h3{
+        width: 100%;
+    }
+}
